@@ -11,6 +11,7 @@ NYU DevOps lab on **Lab OpenShift**
 
 ## Introduction
 
+random words
 This lab introduces **Red Hat OpenShift** as a Platform As A Service (PaaS) solution to cloud computing. It also demonstrates how to create a simple RESTful service using Python Flask and PostgreSQL. The resource model is persistence using SQLAlchemy to keep the application simple. It's purpose is to show the correct API calls and return codes that should be used for a REST API.
 
 **Note:** The base service code is contained in `routes.py` while the business logic for manipulating Pets is in the `models.py` file. This follows the popular Model View Controller (MVC) separation of duities by keeping the model separate from the controller. As such, we have two test suites: one for the model (`test_models.py`) and one for the service itself (`test_routes.py`)
